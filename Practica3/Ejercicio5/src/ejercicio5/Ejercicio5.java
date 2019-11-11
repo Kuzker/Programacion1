@@ -10,9 +10,9 @@ package ejercicio5;
  * @author Kuzk
  */
 import javax.swing.JOptionPane;
-import java.util.*;
-import java.text.*;
-import java.time.*;
+//import java.util.*;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 public class Ejercicio5 {
     public static void main(String[] args) {
         int d = Integer.parseInt(JOptionPane.showInputDialog("Introduce el día. (dd)"));
