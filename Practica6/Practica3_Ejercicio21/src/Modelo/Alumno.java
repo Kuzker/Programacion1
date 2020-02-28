@@ -2,6 +2,7 @@
 package Modelo;
 
 public class Alumno {
+    //Atributos
     private String codigo;
     private String nombre;
     private String domicilio;
@@ -15,6 +16,7 @@ public class Alumno {
     private String curso;
     private String estadoCivil;
 
+    //Constructores
     public Alumno() {
     }
 
@@ -33,6 +35,7 @@ public class Alumno {
         this.estadoCivil = estadoCivil;
     }
 
+    //Getters and Setters
     public String getCodigo() {
         return codigo;
     }
@@ -129,6 +132,7 @@ public class Alumno {
         this.estadoCivil = estadoCivil;
     }
 
+    //Otros Metodos
     @Override
     public String toString() {
         return "Alumno:\n" + ".codigo=" + codigo + "\n .nombre=" + nombre + 

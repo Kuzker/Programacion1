@@ -1,5 +1,4 @@
-
-package ejercicio21;
+package Excepciones;
 
 
 class DatoBlanco extends Exception{

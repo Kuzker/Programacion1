@@ -1,4 +1,3 @@
-
 package ejercicio21;
 
 import Excepciones.*;
@@ -189,7 +188,7 @@ public class Ejercicio21 {
         
     }
    
-    public static void comprobacion(String cadena, Pattern pat) {
+    public static void comprobacion(String cadena, Pattern pat) throws Exception {
         try {
             if (cadena.isEmpty()) {
                 throw new DatoBlanco();
@@ -211,7 +210,7 @@ public class Ejercicio21 {
             
     }
     
-    public static void comprobacionFecha(String cadena) {
+    public static void comprobacionFecha(String cadena) throws Exception {
         try {
             if (cadena.isEmpty()) {
                 throw new DatoBlanco();
